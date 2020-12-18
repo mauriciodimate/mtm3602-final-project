@@ -1,0 +1,231 @@
+
+/*this is the csss for the final*/
+body {
+    background-color: rgb(24, 91, 114);
+    margin: 10px;
+
+  }
+
+#details-container{
+    display:none;
+position:absolute;
+top: 40%;
+  left: 30%;
+  background-color:white;
+  font-size:20px;
+  padding: 40px 62px;
+  width:400px;
+   opacity: 0.8;
+
+}
+
+#container-time{
+ width:700px;
+ font-size:40px;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+padding: 1px 12px;
+}
+#open{
+ width:200px;
+ font-size:20PX;
+  position: absolute;
+  top: 30%;
+  left: 42%;
+padding: 12px 28px;
+  text-align: center;
+}
+.dayoftheweek{
+ font-size:30px;
+ color: red;
+}
+.dayofthemonth{
+   font-size:30px;
+ color: orange;
+}
+.dayoftheyear{
+  color:#800000;
+    font-size:30px;
+}
+.weekoftheyear{
+   color:#ff1a1a;
+    font-size:30px;
+}
+#image{max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ body {
+          width: 100%;
+          height: 100%;
+        }
+
+        .slideout-menu {
+          position: fixed;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          z-index: 0;
+          width: 256px;
+          overflow-y: scroll;
+          -webkit-overflow-scrolling: touch;
+          display: none;
+        }
+
+        .slideout-panel {
+          position: relative;
+          z-index: 1;
+          will-change: transform;
+        }
+
+        .slideout-open,
+        .slideout-open body,
+        .slideout-open .slideout-panel {
+          overflow: hidden;
+        }
+
+        .slideout-open .slideout-menu {
+          display: block;
+        }
+
+#form2{
+  background:white;
+}
+#show, #horas{
+  background:yellow;
+  color:grey;
+  font-size:20px;
+}
+/*for tablet*/
+ @media (min-width: 668px) and (max-width: 1024px) and (orientation: landscape){
+body {
+    background-color: rgb(24, 21, 114);
+    margin: 10px;
+
+  }
+
+#details-container{
+    display:none;
+position:absolute;
+  top: 40%;
+  left: 10%;
+  background-color:rgb(255, 235, 205);
+  font-size:30px;
+  padding: 20px 22px;
+  width: 670px;
+   opacity: 0.8;
+
+}
+ .dates{
+     position: absolute;
+  top: 10%;
+  left: 2%;
+ }
+#container-time{
+ width:480px;
+ font-size:50px;
+  position: absolute;
+  top: 10%;
+  left: 2%;
+padding: 1px 12px;
+  background-color:rgb(255, 235, 205);
+  color:purple;
+}
+#open{
+ width:90px;
+ font-size:20PX;
+  position: absolute;
+  top: 80%;
+  left: 45%;
+padding: 12px 20px;
+  text-align: center;
+}
+.dayoftheweek{
+ font-size:20px;
+ color: grey;
+}
+.dayofthemonth{
+   font-size:20px;
+ color: orange;
+}
+.dayoftheyear{
+  color:blue;
+    font-size:20px;
+}
+.weekoftheyear{
+   color:purple;
+    font-size:20px;
+}
+#image{max-width:100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+ }
+
+ /*cellphone*/
+@media (max-width: 668px) and (min-width: 500px) {
+
+body {
+    background-color: grey;
+    margin: auto 0;
+
+  }
+
+#details-container{
+    display:none;
+position:absolute;
+  top: 30%;
+  left: 10%;
+  background-color:yellow;
+  font-size:20px;
+  padding: 40px 42px;
+  width: 200px;
+
+
+}
+
+#container-time{
+ width:440px;
+ font-size:40px;
+  position: absolute;
+  background-color:yellow;
+  color:blue;
+   left: 12%;
+}
+#open{
+ width:80px;
+ font-size:10px;
+  position: absolute;
+  top: 1%;
+  left: 12%;
+padding: 12px 20px;
+  text-align: center;
+  background-color:purple;
+}
+.dayoftheweek{
+ font-size:20px;
+ color: grey;
+}
+.dayofthemonth{
+   font-size:20px;
+ color: orange;
+}
+.dayoftheyear{
+  color:blue;
+    font-size:20px;
+}
+.weekoftheyear{
+   color:purple;
+    font-size:20px;
+}
+#image{max-width:100%;
+  display: block;
+
+}
+  }
